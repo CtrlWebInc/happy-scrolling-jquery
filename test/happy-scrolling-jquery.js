@@ -1,10 +1,12 @@
 var assert = require('assert');
 
-describe('interpolate', function() {
+describe('generateLinearFunction', function() {
 
-    it('should return -1 when the value is not present', function () {
-        assert.equal(-1, [1,2,3].indexOf(5));
-        assert.equal(-1, [1,2,3].indexOf(0));
+    it('p1(0, 1) p2(2, 5) f(x) -> f(3) = 7', function () {
+        var p1 = {x:0, y:1},
+            p2 = {x:2, y:5};
+        assert.equal(7, generateLinearFunction(p1, p2)(3));
+
     });
 
 });

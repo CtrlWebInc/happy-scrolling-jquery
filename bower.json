@@ -1,9 +1,24 @@
 {
   "name": "happy-scrolling-jquery",
-  "version": "0.1",
-  "dependencies": {},
-  "devDependencies": {
-    "qunit": "~1.12.0",
-    "jquery": "latest"
-  }
+  "homepage": "https://github.com/CtrlWebInc/happy-scrolling-jquery",
+  "authors": [
+    "Martin Grogan <martin.grogan@ctrlweb.ca>"
+  ],
+  "description": "Simple Css transition based on scrolling position",
+  "main": "happy-scrolling.js",
+  "moduleType": [],
+  "keywords": [
+    "css",
+    "scrolling",
+    "scroll",
+    "transitions"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
